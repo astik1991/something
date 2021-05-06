@@ -1,5 +1,8 @@
 class Run{
 public static void main(String[] a){
-System.out.println("Jenkins Job Done ...... ");
+for(int i=0;i<10;i++){
+	System.out.println("Jenkins Job Done ...... " + i);
+}
+
 }
 }
